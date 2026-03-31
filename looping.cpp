@@ -26,4 +26,11 @@ while(x<=5){
 
 cout << "Bilangan acak while yang terakhir =" << x << endl;
 cout << endl;
+//Perulangan dengan DO. . . WHILE
+cout<<"PERULANGANN DO ... WHILE" << endl;
+x = 1 + rand( )%10;
+do{
+    cout << "Bilangan acak = "<< x << endl;
+    x = rand()%10;
+}while(x <= 5);
 
